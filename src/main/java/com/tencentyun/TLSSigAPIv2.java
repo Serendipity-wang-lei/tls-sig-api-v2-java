@@ -11,10 +11,16 @@ import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
 
 import org.json.JSONObject;
+import com.tencentyun.TLSSigAPIv2;
+
+
 
 public class TLSSigAPIv2 {
     final private long sdkappid;
     final private String key;
+
+
+
 
     public TLSSigAPIv2(long sdkappid, String key) {
         this.sdkappid = sdkappid;
